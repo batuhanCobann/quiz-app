@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body{
+    background-color: #F4F6FA;
+    background-image: url(../img/Ellipse\ 8.svg);
+    background-repeat: no-repeat;
+}
+
+.header-conteiner{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 83px auto;
+    width: 1157px;
+    height: 56px;
+}
+
+/* .header-left{
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        
+
+    }
+}
+
+.header-left-img{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Rectangle\ 3.svg);
+    width: 56px;
+    height: 56px;
+} */
+
+.header-right{
+    margin-left: 1025px;
+    width: 128px;
+    height: 28px;
+}
+
+.switch {
+    padding: 11px;
+    margin: 0px 11px;
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 27px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #A729F5;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #A729F5;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  .conteiner-body{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 0px auto;
+    
+  }
+
+  .conteiner-body-left{
+
+    h1{
+        font-size: 64px;
+        font-weight: 300;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+
+    }
+    h2{
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+        margin-top: 10px;
+
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626C7F;
+        margin-top: 50px;
+    }
+  }
+
+
+
+  .conteiner-body-right-1{
+    border: none;
+    cursor: pointer;
+    width: 564px;
+    height: 96px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    img{
+        margin: 20px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+    }
+  }
+  .conteiner-body-right-2{
+    border: none;
+    cursor: pointer;
+    width: 564px;
+    height: 96px;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    img{
+        margin: 20px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+    }
+
+  }
+  .conteiner-body-right-3{
+    border: none;
+    cursor: pointer;
+    width: 564px;
+    height: 96px;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    img{
+        margin: 20px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+    }
+
+  }
+  .conteiner-body-right-4{
+    border: none;
+    cursor: pointer;
+    width: 564px;
+    height: 96px;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    img{
+        margin: 20px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313E51;
+    }
+  }
